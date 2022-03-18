@@ -1,5 +1,5 @@
 pipeline{
-    agent{label 'main'}
+    agent{label 'Built-In Node'}
     tools{maven 'M3'}
     stages{
         stage('Checkout'){
